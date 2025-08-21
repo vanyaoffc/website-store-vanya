@@ -1,146 +1,42 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Promo Userbot Premium</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      background: #000;
-      font-family: 'Poppins', sans-serif;
-      color: white;
-      text-align: center;
-      padding: 40px 20px;
-    }
-
-    .glow-img {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      border: 4px solid #00ffc8;
-      box-shadow: 0 0 20px #00ffc8, 0 0 50px #00ffc8;
-      animation: glow 3s infinite alternate;
-      margin-bottom: 20px;
-    }
-
-    @keyframes glow {
-      from { box-shadow: 0 0 10px #00ffc8; }
-      to { box-shadow: 0 0 30px #00ffc8, 0 0 70px #00ffc8; }
-    }
-
-    h1 {
-      font-size: 2.5em;
-      color: #00ffc8;
-      font-family: 'Orbitron', sans-serif;
-      text-shadow: 0 0 10px #00ffc8;
-      margin-bottom: 10px;
-    }
-
-    .promo-list {
-      margin: 30px auto;
-      background: #111;
-      border-radius: 15px;
-      padding: 20px;
-      max-width: 400px;
-      box-shadow: 0 0 15px rgba(0,255,200,0.1);
-    }
-
-    .promo-list p {
-      margin: 8px 0;
-      font-size: 1.1em;
-    }
-
-    .cta {
-      margin-top: 25px;
-      padding: 12px 25px;
-      font-size: 1em;
-      border: none;
-      background: #00ffc8;
-      color: #000;
-      cursor: pointer;
-      border-radius: 10px;
-      transition: transform 0.2s;
-      text-decoration: none;
-    }
-
-    .cta:hover {
-      transform: scale(1.1);
-      background: #00d4a3;
-    }
-
-    .music-control {
-      margin-top: 20px;
-    }
-
-    .music-control button {
-      background: none;
-      border: 2px solid #00ffc8;
-      color: #00ffc8;
-      padding: 10px 20px;
-      border-radius: 10px;
-      cursor: pointer;
-      font-size: 1em;
-      transition: 0.3s;
-    }
-
-    .music-control button:hover {
-      background: #00ffc8;
-      color: #000;
-    }
-
-    .contact {
-      margin-top: 15px;
-      color: #ccc;
-    }
-
-    .contact a {
-      color: #00ffc8;
-      text-decoration: none;
-    }
-
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
 </head>
 <body>
+    <header>
+        <a href="#" class="logo">Alex</a>
 
-  <img src="https://files.catbox.moe/hjl34y.jpg" class="glow-img" alt="Foto Promosi" />
-
-  <h1>👋 PROMO USERBOT PREMIUM!</h1>
-  <p>🔥 Dapatkan akses ke userbot premium dengan fitur lengkap dan support langsung dari developer. Terbatas hanya untuk pengguna terpilih!</p>
-
-  <div class="promo-list">
-    <p><strong>USERBOT 1 BULAN</strong> - Rp5.000.00</p>
-    <p><strong>USERBOT PERMANEN</strong> - Rp10.000.00</p>
-    <p><strong>SELES USERBOT</strong> - Rp15.000.00</p>
-    <p><strong>ADMIN USERBOT</strong> - Rp25.000.00</p>
-  </div>
-  
-    <h1>👋 READY JUGA PANEL PRIVATE!</h1>
-  <p>🔥 Dapatkan Panel Pterodactyl dengan kualitas super premium,Panel bersifat private 100% aman!</p>
-  
-  <div class="promo-list">
-    <p><strong>Pterodactyl Ram 5GB</strong> - Rp5.000.00</p>
-    <p><strong>Pterodactyl Ram 6GB</strong> - Rp6.000.00</p>
-    <p><strong>Pterodactyl Ram 7GB</strong> - Rp7.000.00</p>
-    <p><strong>Pterodactyl Ram 8GB</strong> - Rp8.000.00</p>
-    <p><strong>Pterodactyl Ram Unlimited</strong> - Rp9.000.00</p>
-  </div>
-
-  <a class="cta" href="https://t.me/aleyazinkai" target="_blank">Hubungi Sekarang</a>
-
-  <div class="music-control">
-    <button onclick="document.getElementById('bg-music').play()">▶️ Play Music</button>
-    <button onclick="document.getElementById('bg-music').pause()">⏸ Pause</button>
-  </div>
-
-  <audio id="bg-music" loop>
-    <source src="https://files.catbox.moe/y2tmcz.mp3" type="audio/mp3">
-  </audio>
-
-  <div class="contact">
-    Contact: <a href="https://t.me/aleyazinkai">@aleyazinkai</a>
-  </div>
-
+        <nav>
+            <a href="#" class="active"> Home</a>
+            <a href="#" >Services</a>
+            <a href="#" >Skills</a>
+            <a href="#" >Education</a>
+            <a href="#" >Experience</a>
+            <a href="#" >Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Alex</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus labore dolores esse. Odit similique doloribus tenetur doloremque, sunt commodi in ipsa repudiandae debitis deleniti blanditiis quibusdam quaerat neque asperiores ea.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#" class="btn">Hire me</a>
+        </div>
+    </section>
 </body>
 </html>
